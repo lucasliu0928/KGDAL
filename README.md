@@ -1,5 +1,4 @@
-# Project Name
-> KGDAL: Knowledge Graph Guided Double Attention LSTM
+#  KGDAL: Knowledge Graph Guided Double Attention LSTM
 
 ## Table of contents
 * [General info](#general-info)
