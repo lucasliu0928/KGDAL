@@ -1,8 +1,7 @@
-#  KGDAL: Knowledge Graph Guided Double Attention LSTM
+#  KGDAL: Knowledge Graph Guided Double Attention LSTM for Rolling Mortality Prediction for AKI-D Patients
 
 ## Table of contents
 * [General info](#general-info)
-* [Screenshots](#screenshots)
 * [Technologies](#technologies)
 * [Setup](#setup)
 * [Code sections](#Code-sections)
@@ -12,9 +11,10 @@
  
 
 ## General info
-Add more general information about project. What the purpose of the project is? Motivation?
-
-## Screenshots
+1. KGDAL obtains two-dimensional attention in both the time and feature spaces for improved prediction power and enhanced model interpretability.
+2. The attention mechanism in the feature space is automatically derived based on the KG rather than manual curation. %as a guidance to build the attention mechanism
+3. KGDAL can model both continuous and discrete temporal EHR data types.
+4. KGDAL can make precise rolling mortality predictions for AKI-D patients on two independent clinical datasets.
 
 ## Technologies
 * Tech 1 - version 1.0
@@ -27,8 +27,7 @@ Describe how to install / setup your local environement / add link to demo versi
 ## Code sections
 /Py_Code: this folder contains all script for pre-process data
 ## Code Examples
-Show examples of usage:
-`put-your-code-here`
+
 
 ## Features
 List of features ready and TODOs for future development
@@ -41,7 +40,7 @@ To-do list:
 * Wow improvement to be done 2
 
 ## Status
-Project is: _in progress_, _finished_, _no longer continue_ and why?
+Project is: _in progress_, 
 
 ## Contact
 Created by Lucas J. Liu (jli394@uky.edu) - feel free to contact me!
