@@ -18,7 +18,6 @@
 Describe how to install / setup your local environement / add link to demo version.
 
 ## Code sections
-/Py_Code: this folder contains all script for pre-process data
 ## Code Examples
 
 
