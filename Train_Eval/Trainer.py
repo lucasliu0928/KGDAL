@@ -7,11 +7,11 @@ Created on Wed Mar 10 14:13:24 2021
 """
 
 import tensorflow as tf
-#import pandas as pd
-#import numpy as np
-#import sys
-#sys.path.insert(0, "./")
-#from Model.LSTM_ATTonTime import MyLSTM
+import sys
+import os
+CURR_DIR = os.path.dirname(os.path.abspath("./")) #Set system path to KGDAL
+sys.path.append(CURR_DIR)
+
 from Ultility import Batch_Sampling_Funcs
 
 
