@@ -8,7 +8,13 @@ Created on Wed Mar 10 21:37:06 2021
 
 import tensorflow as tf
 import pandas as pd
+import sys
+import os
 
+CURR_DIR = os.path.dirname(os.path.abspath("./")) #Set system path to KGDAL
+sys.path.append(CURR_DIR)
+
+    
 from Model.LSTM_ATTonTime import MyLSTM,MyLSTM_4grps
 from Model.LSTM_ATTonTimeAndFeature_WithThresFeatures import AttnOnFeatures_ScaleAtt_4grps_withThresFeature
 from Model.LSTM_Vanila import VanillaLSTM
