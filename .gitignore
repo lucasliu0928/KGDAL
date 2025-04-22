@@ -8,3 +8,4 @@ Extract_rawData_Code/csv_database.db
 *.data-00000-of-00001
 Dynamic_Data_Process_Code/Py_Code/PhasedLSTM-Keras-master/phased_lstm_keras/training_2/checkpoint
 ontology_scripts/code/3_OpenKE
+ontology_scripts/Ontology_features
